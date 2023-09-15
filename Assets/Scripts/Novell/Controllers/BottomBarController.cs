@@ -33,7 +33,7 @@ public class BottomBarController : MonoBehaviour
     {
         sprites = new Dictionary<Speaker, SpriteController>();
         animator = GetComponent<Animator>();
-        playerName = WebManager.player.nickname;
+        playerName = PlayerPrefs.GetString("PlayerName");
     }
 
     public int GetSentenceIndex()

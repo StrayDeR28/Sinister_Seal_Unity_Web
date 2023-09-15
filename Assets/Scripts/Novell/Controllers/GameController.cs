@@ -47,16 +47,15 @@ public class GameController : MonoBehaviour
                     {
                         if ((currentScene as StoryScene).nextScene == null)
                         {
-                            if (SceneManager.GetActiveScene().name == "NovellScene1")
+                            if (currentScene.name == "FirstScene")
                             {
-                                gameObject.GetComponent<WebManager>().DataUpdate("novel1", 1);
-                                WebManager.player.novel1 = true;
+                                gameObject.GetComponent<SceneLoader>().StringToEnum("AlchemyScene");
                             }
-                            else if (SceneManager.GetActiveScene().name == "NovellScene2.2" || SceneManager.GetActiveScene().name == "NovellScene2.1") 
+                            else if (currentScene.name == "Novell2.1") //current scene name
                             {
-                                WebManager.player.novel2 = false;
+                                //gameObject.GetComponent<SceneLoader>().StringToEnum("AlchemyScene");//?
                             }
-                            gameObject.GetComponent<SceneLoader>().LoadScene();
+                            gameObject.GetComponent<SceneLoader>().StringToEnum("AlchemyScene");
                         }
                         else
                         {
