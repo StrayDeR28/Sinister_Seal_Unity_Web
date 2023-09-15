@@ -8,44 +8,24 @@ public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private LoadingIndicatorSO loadingIndicatorSO;
     private string sceneName;
-    [SerializeField] private ScenesEnum LoadNextScene = ScenesEnum.Registration;
+    [SerializeField] private ScenesEnum LoadNextScene = ScenesEnum.MainMenuScene;
 
-    [SerializeField] private enum ScenesEnum {None=0, Registration=1, Novell1=2, Map=3, Case=4, NovellScene21=5, NovellScene22 = 6, Statistic = 7, CaseWide = 8, Credits = 9};
+    [SerializeField] private enum ScenesEnum {None=0, MainMenuScene = 1, Novell1=2, Alchemy=3, Credits = 4};
     public void LoadScene()
     {
         Time.timeScale = 1f;
         switch (LoadNextScene)
         {
-            case ScenesEnum.Registration:
-                sceneName = "RegistrationScene";
+            case ScenesEnum.MainMenuScene:
+                sceneName = "MainMenuScene";
                 StartCoroutine(LoadSceneAsync());
                 break;
             case ScenesEnum.Novell1:
                 sceneName = "NovellScene1";
                 StartCoroutine(LoadSceneAsync());
                 break;
-            case ScenesEnum.Map:
-                sceneName = "MapScene";
-                StartCoroutine(LoadSceneAsync());
-                break;
-            case ScenesEnum.Case:
-                sceneName = "CaseSceneMain";
-                StartCoroutine(LoadSceneAsync());
-                break;
-            case ScenesEnum.CaseWide:
-                sceneName = "CaseSceneWide";
-                StartCoroutine(LoadSceneAsync());
-                break;
-            case ScenesEnum.NovellScene21:
-                sceneName = "NovellScene2.1";
-                StartCoroutine(LoadSceneAsync());
-                break;
-            case ScenesEnum.NovellScene22:
-                sceneName = "NovellScene2.2";
-                StartCoroutine(LoadSceneAsync());
-                break;
-            case ScenesEnum.Statistic:
-                sceneName = "StatisticScene";
+            case ScenesEnum.Alchemy:
+                sceneName = "AlchemyScene";
                 StartCoroutine(LoadSceneAsync());
                 break;
             case ScenesEnum.Credits:
@@ -58,26 +38,16 @@ public class SceneLoader : MonoBehaviour
     {
         switch (str)
         {
-            case "RegistrationScene":
-                LoadNextScene = ScenesEnum.Registration;
+            case "MainMenuScene":
+                LoadNextScene = ScenesEnum.MainMenuScene;
                 LoadScene();
                 break;
             case "NovellScene1":
                 LoadNextScene = ScenesEnum.Novell1;
                 LoadScene();
                 break;
-            case "NovellScene2.1":
-                LoadNextScene = ScenesEnum.NovellScene21;
-                break;
-            case "NovellScene2.2":
-                LoadNextScene = ScenesEnum.NovellScene22;
-                break;
-            case "Map":
-                LoadNextScene = ScenesEnum.Map;
-                LoadScene();
-                break;
-            case "StatisticScene":
-                LoadNextScene = ScenesEnum.Statistic;
+            case "AlchemyScene":
+                LoadNextScene = ScenesEnum.Alchemy;
                 LoadScene();
                 break;
             case "CreditsScene":
@@ -99,23 +69,14 @@ public class SceneLoader : MonoBehaviour
     {
         switch (str)
         {
-            case "RegistrationScene":
-                LoadNextScene = ScenesEnum.Registration;
+            case "MainMenuScene":
+                LoadNextScene = ScenesEnum.MainMenuScene;
                 break;
             case "NovellScene1":
                 LoadNextScene = ScenesEnum.Novell1;
                 break;
-            case "NovellScene2.1":
-                LoadNextScene = ScenesEnum.NovellScene21;
-                break;
-            case "NovellScene2.2":
-                LoadNextScene = ScenesEnum.NovellScene22;
-                break;
-            case "Map":
-                LoadNextScene = ScenesEnum.Map;
-                break;
-            case "StatisticScene":
-                LoadNextScene = ScenesEnum.Statistic;
+            case "AlchemyScene":
+                LoadNextScene = ScenesEnum.Alchemy;
                 break;
             case "CreditsScene":
                 LoadNextScene = ScenesEnum.Credits;
