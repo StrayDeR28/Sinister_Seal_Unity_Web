@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RegistrationScene.unity
+    guid: 6cfe9611105d03e4bb63579e5ea36cb0
+  - enabled: 1
+    path: Assets/Scenes/NovellScene1.unity
+    guid: 9be236a6a7b4cc649b51b6d507b2b799
+  - enabled: 1
+    path: Assets/Scenes/MapScene.unity
+    guid: 4629c7295f659b84a847b0993a5cb829
+  - enabled: 1
+    path: Assets/Scenes/CaseSceneMain.unity
+    guid: c1f51c7bb2fe8c143b2c1c4a92204235
+  - enabled: 1
+    path: Assets/Scenes/NovellScene2.1.unity
+    guid: 8c3e5e7897769fe4595e08911015a15c
+  - enabled: 1
+    path: Assets/Scenes/NovellScene2.2.unity
+    guid: 40772ba88b0c4a64bb80ed2b06a05054
+  - enabled: 1
+    path: Assets/Scenes/StatisticScene.unity
+    guid: 2264af3cc9483404fa1165d2833f84da
+  - enabled: 1
+    path: Assets/Scenes/CaseSceneWide.unity
+    guid: 6f97f140ba4b8364c9537182f5c5192f
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: 8d09e3aa68d2c0140b7c79e0f1aa5279
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: b035e72ef2bc9de4a8940e26f51575fc, type: 2}

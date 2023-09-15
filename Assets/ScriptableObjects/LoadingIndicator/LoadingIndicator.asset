@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8debe2fd6b34e46b72770626f3b5d1, type: 3}
+  m_Name: LoadingIndicator
+  m_EditorClassIdentifier: 
+  loadingIndicator: {fileID: 2025729890231440045, guid: 080f9f2c4f628194ab0c831323eb1f8b, type: 3}

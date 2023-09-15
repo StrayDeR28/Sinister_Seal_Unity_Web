@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: d60229386f063234286b2b1fb6cdfc17
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F
+        3_15"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2283
+        width: 7683
+        height: 5480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39ee5532be2edc4ea30c6de21f5f7b8
+      internalID: -2122281468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_0": 1530110783
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_1": -467250441
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_10": -533097425
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_11": 1019075747
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_12": 937904089
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_13": 703151145
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_14": 38844530
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_15": -2122281468
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_16": 1019733136
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_17": -365782103
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_18": -1537054055
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_19": 975403827
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_2": -389383128
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_20": 1932770114
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_3": 788076314
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_4": -894381096
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_5": 705651762
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_6": 1087850640
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_7": -900324439
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_8": 2033568436
+      "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u044F\u0440\u043A\u0430\u044F 3_9": -547666747
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
