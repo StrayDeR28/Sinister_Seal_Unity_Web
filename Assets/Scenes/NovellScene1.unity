@@ -957,9 +957,9 @@ GameObject:
   - component: {fileID: 1159638926}
   - component: {fileID: 1159638925}
   - component: {fileID: 1159638924}
+  - component: {fileID: 1159638931}
   - component: {fileID: 1159638928}
   - component: {fileID: 1159638929}
-  - component: {fileID: 1159638930}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingIndicatorSO: {fileID: 11400000, guid: 751432b9a653e7241a1868ec0eac4c75, type: 2}
   LoadNextScene: 3
---- !u!114 &1159638930
+--- !u!114 &1159638931
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1093,12 +1093,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1159638923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e493ce1d10e3474789dfc326b835fc4, type: 3}
+  m_Script: {fileID: 11500000, guid: f69647163801fc246ab2cd9b8cdb79cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnError:
-    m_PersistentCalls:
-      m_Calls: []
+  storyScences:
+  - {fileID: 11400000, guid: 8b59ef15f6486a740a2577b48ff368d4, type: 2}
+  - {fileID: 11400000, guid: af82a513e1dcf5445b4be29a27933a79, type: 2}
+  - {fileID: 11400000, guid: fa63c03f56a78d04986890eb35030a5b, type: 2}
+  gameController: {fileID: 1159638923}
 --- !u!1 &1387861154
 GameObject:
   m_ObjectHideFlags: 0
