@@ -1307,6 +1307,7 @@ GameObject:
   - component: {fileID: 1703933903}
   - component: {fileID: 1703933902}
   - component: {fileID: 1703933905}
+  - component: {fileID: 1703933906}
   m_Layer: 5
   m_Name: Choose
   m_TagString: Untagged
@@ -1430,6 +1431,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92e90ceffdce3b4cbaa92382ac9a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1703933906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703933898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1f996e920865b4cb155abad66272e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyScenes:
+  - {fileID: 11400000, guid: af82a513e1dcf5445b4be29a27933a79, type: 2}
+  - {fileID: 11400000, guid: fa63c03f56a78d04986890eb35030a5b, type: 2}
+  - {fileID: 11400000, guid: 837c74ffcc503fa4cada69faf7ace9e3, type: 2}
+  - {fileID: 11400000, guid: 8d5b2ba4c97070542a47c754d53924bb, type: 2}
+  - {fileID: 11400000, guid: 8b59ef15f6486a740a2577b48ff368d4, type: 2}
+  - {fileID: 11400000, guid: aad154f82563c9e4b860ed57c3cecc2b, type: 2}
 --- !u!1 &1755857517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,7 +2129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -505.5, y: -73}
+  m_AnchoredPosition: {x: -505.49997, y: -73}
   m_SizeDelta: {x: -1289, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035518896

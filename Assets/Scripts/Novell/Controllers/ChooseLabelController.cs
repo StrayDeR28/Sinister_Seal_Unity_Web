@@ -1,17 +1,22 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.EventSystems;
+using System.Reflection.Emit;
+using UnityEngine.UIElements;
 
 public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public Color defaultColor;
     public Color hoverColor;
+    public Color disabledColor;
     private StoryScene scene;
     private TextMeshProUGUI textMesh;
     private ChooseController controller;
     private string achievement;
+    private string condition;
 
     private bool chooseMade = false;
+    private bool conditionMet = true;//Остутсвие условия = условие выполнено
 
     void Awake()
     {
@@ -30,6 +35,9 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
         textMesh.text = label.text;
         this.controller = controller;
         achievement = label.achievement;
+        condition = label.condition;
+        if (condition != "") { conditionMet = controller.CheckConditionContent(condition); }
+        if (conditionMet == false) { textMesh.color = disabledColor; }
 
         Vector3 position = textMesh.rectTransform.localPosition;
         position.y = y;
@@ -38,21 +46,37 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (chooseMade == false)
-        {
-            if (achievement != null) { controller.CheckAchivement(achievement); }
-            controller.PerformChoose(scene);
-            chooseMade = true;
+        if (conditionMet==true) 
+        { 
+            if (chooseMade == false)
+            {
+                if (achievement != "")
+                {
+                    controller.CheckAchivement(achievement); 
+                }
+                if (condition != "")// чтобы не менять следующую сцену для вариантов без condition
+                {
+                    scene = controller.ChooseStoryScene(condition); 
+                }
+                controller.PerformChoose(scene);
+                chooseMade = true;
+            }
         }
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        textMesh.color = hoverColor;
+        if (conditionMet == true)
+        {
+            textMesh.color = hoverColor;
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        textMesh.color = defaultColor;
+        if (conditionMet == true)
+        {
+            textMesh.color = defaultColor;
+        }
     }
 }

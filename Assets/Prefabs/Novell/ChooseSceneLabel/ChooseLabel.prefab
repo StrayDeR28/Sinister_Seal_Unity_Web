@@ -150,3 +150,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 1, b: 1, a: 0.74509805}
+  disabledColor: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 0.68235296}
