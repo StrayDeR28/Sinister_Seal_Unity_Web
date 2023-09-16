@@ -59,9 +59,9 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 8300000, guid: 7943c38b0d5ff664e8a9e02ced185ab4, type: 3}
     sound: {fileID: 8300000, guid: e772c0e4b77f073418cfa2208a6271b5, type: 3}
-  - text: "&name, \u0442\u0435\u043F\u0435\u0440\u044C \u0442\u044B \u043D\u0435
-      \u043E\u0434\u0438\u043D, \u043D\u0430\u0434\u0435\u044E\u0441\u044C, \u043C\u043E\u0439
-      \u0434\u043E\u0440\u043E\u0433\u043E\u0439 \u041F\u0435\u043F\u0430\u0441\u0430\u043D
+  - text: " Ivan \u0414\u0436\u0443\u043D-\u0441\u0430\u043D, \u0442\u0435\u043F\u0435\u0440\u044C
+      \u0442\u044B \u043D\u0435 \u043E\u0434\u0438\u043D, \u043D\u0430\u0434\u0435\u044E\u0441\u044C,
+      \u043C\u043E\u0439 \u0434\u043E\u0440\u043E\u0433\u043E\u0439 \u041F\u0435\u043F\u0430\u0441\u0430\u043D
       \u043D\u0435 \u043F\u043E\u0434\u0432\u0435\u0434\u0435\u0442 \u0442\u0435\u0431\u044F
       \u0432 \u044D\u0442\u043E\u043C \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u043C
       \u0434\u0435\u043B\u0435. \u0423\u0432\u0435\u0440\u0435\u043D \u0432\u043C\u0435\u0441\u0442\u0435
@@ -92,5 +92,5 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 8300000, guid: 7943c38b0d5ff664e8a9e02ced185ab4, type: 3}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 195926101d5200245831f895db86c35f, type: 3}
+  background: {fileID: 21300000, guid: ebd1914b7da72944b989fcc864011950, type: 3}
   nextScene: {fileID: 0}
