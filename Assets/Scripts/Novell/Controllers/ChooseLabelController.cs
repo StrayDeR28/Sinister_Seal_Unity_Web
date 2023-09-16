@@ -9,6 +9,7 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
     private StoryScene scene;
     private TextMeshProUGUI textMesh;
     private ChooseController controller;
+    private string achievement;
 
     private bool chooseMade = false;
 
@@ -28,6 +29,7 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
         scene = label.nextScene;
         textMesh.text = label.text;
         this.controller = controller;
+        achievement = label.achievement;
 
         Vector3 position = textMesh.rectTransform.localPosition;
         position.y = y;
@@ -38,6 +40,7 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
     {
         if (chooseMade == false)
         {
+            if (achievement != null) { controller.CheckAchivement(achievement); }
             controller.PerformChoose(scene);
             chooseMade = true;
         }

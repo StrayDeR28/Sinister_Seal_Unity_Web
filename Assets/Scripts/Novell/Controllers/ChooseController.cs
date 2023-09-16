@@ -43,7 +43,13 @@ public class ChooseController : MonoBehaviour
         gameController.PlayScene(scene);
         animator.SetTrigger("Hide");
     }
-
+    public void CheckAchivement(string achievment)
+    {
+        if (achievment != null)
+        {
+            gameObject.GetComponent<AchievementsEarn>().EarnAchievement(achievment);
+        }
+    }
     private float CalculateLabelPosition(int labelIndex, int labelCount)
     {
         if(labelCount %2 == 0)
