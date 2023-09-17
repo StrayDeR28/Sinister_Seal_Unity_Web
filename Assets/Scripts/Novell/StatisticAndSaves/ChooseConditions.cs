@@ -5,7 +5,6 @@ using UnityEngine;
 public class ChooseConditions : MonoBehaviour
 {
     [SerializeField] private List<StoryScene> storyScenes;
-   //public Dictionary<string,StoryScene> storyScenesDictionary;
     public bool CheckContent(string condition)
     {
         if (PlayerPrefs.GetString(condition) == "")
@@ -27,6 +26,21 @@ public class ChooseConditions : MonoBehaviour
                     break;
                 default:
                     print("передали не предусмотренный параметр в PlayerPrefs \"Condition:potion\" ");
+                    break;
+            }
+        }
+        if (condition == "Condition:rune")//при рунах проверяем еще и на зелье//или нет
+        {
+            switch (PlayerPrefs.GetString("Condition:potion"))
+            {
+                case "Sleeping"://нужное условие прописать
+                    scene = FindListElement("Novell2.1");//загрузка сцены с успехом
+                    break;
+                case "Hallucinogenic"://нужное условие прописать
+                    scene = FindListElement("Novell2.1");//загрузка сцены с успехом
+                    break;
+                default:
+                    print("передали не предусмотренный параметр в PlayerPrefs \"Condition:rune\" ");
                     break;
             }
         }

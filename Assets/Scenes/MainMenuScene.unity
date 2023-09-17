@@ -477,7 +477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1961796990888229324, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_Interactable
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1961796990888229324, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_TargetGraphic
@@ -745,7 +745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3072860180982475260, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_text
-      value: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      value: "\u041D\u0430\u0447\u0430\u0442\u044C"
       objectReference: {fileID: 0}
     - target: {fileID: 6240312789784047614, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_fontStyle
@@ -753,19 +753,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6240312789784047614, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_fontColor.b
-      value: 1
+      value: 0.6509804
       objectReference: {fileID: 0}
     - target: {fileID: 6240312789784047614, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_fontColor.g
-      value: 1
+      value: 0.6509804
       objectReference: {fileID: 0}
     - target: {fileID: 6240312789784047614, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_fontColor.r
-      value: 1
+      value: 0.6509804
       objectReference: {fileID: 0}
     - target: {fileID: 6240312789784047614, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4289111718
       objectReference: {fileID: 0}
     - target: {fileID: 8187012387588954053, guid: 57e58fc140183b54a89124a7268540d6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
@@ -1600,7 +1600,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab95fa47aa6043943ba3366323ff8f2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6079477ccfd31c94da5fd5ea0c50b421, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

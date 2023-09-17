@@ -47,7 +47,7 @@ public class GameController : MonoBehaviour
                     {
                         if ((currentScene as StoryScene).nextScene == null)
                         {
-                            if (currentScene.name == "FirstScene")
+                            if (currentScene.name == "Novell1.1")//должна быть конечная сцена тут, а не начальная
                             {
                                 gameObject.GetComponent<SceneLoader>().StringToEnum("AlchemyScene");
                             }
