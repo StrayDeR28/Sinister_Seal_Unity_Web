@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AlchemyScene.unity
     guid: c4b8a994bf4cab248a04d6e85622eefc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CreditsScene.unity
     guid: 8d09e3aa68d2c0140b7c79e0f1aa5279
   m_configObjects:

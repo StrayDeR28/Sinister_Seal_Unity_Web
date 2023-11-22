@@ -13,5 +13,7 @@ public class ChooseScene : GameScene
     {
         public string text;
         public StoryScene nextScene;
+        public string achievement;//ачивка при нажатии
+        public string condition;//поле отвечающее за доступность варианта
     }
 }
